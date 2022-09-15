@@ -1,6 +1,6 @@
 ## persian-bad-words
 
-Install it by npm:
+Install it by [npm](https://www.npmjs.com/package/persian-bad-words):
 ```bash
 npm i persian-bad-words@latest
 ```
@@ -26,8 +26,8 @@ v1.0.0
 const { detect } = require('persian-bad-words');
 
 console.log(detect("کی ر")); //returns true
-console.log(detect("جنㅤده")); //returns true
-console.log(detect("سلام زنتو من گای یدم")); //return true
+console.log(detect("کی‌ر")); //returns true
+console.log(detect("سلام زنتو من گای یدم")); //returns true
 console.log(detect("سلام سوتون چطوری امیدوارم عشق کنی بامون")); //returns false
 ```
 
@@ -61,13 +61,13 @@ client.on("message", async (msg) => {
 
 
 
-## Donate?
+## Donate or help?
 
 https://idpay.ir/thekawasaki
 
 فسفرایی که میسوزونیم با هیچی جبران نمیشه (این یه چاخانه)
 
-
+هرجور پیشنهاد با مشکلی داشتید PR یا issue باز کنید!
 
 ## ToDo
 
