@@ -8,8 +8,9 @@ npm i persian-bad-words@latest
 - Author : **Thekawasaki**
 - made with **Brain**
 
-## Update?
+## Updates
 
+v1.0.0
 - First upload!
 
 ## Usage?
@@ -56,7 +57,7 @@ client.on("message", async (msg) => {
 
 ## Other ways or in other languages?
 
-ببین ما دست تنهاییم و اگه از کد و متد ما سر در آوردید با زبون دومی که بلدید یه کد بزنید بعد ریکوست بدید نگا کنم ولی این پکیج سراسر نود جی اس براتون جوابه و خوراک بات های تلگرامی و دیسکوردی آنتی فحشه + اینستا
+ببین ما دست تنهاییم و اگه از کد و متد ما سر در آوردید با زبون دومی که بلدید یه کد بزنید بعد ریکوست بدید نگا کنم ولی این پکیج سراسر نود جی اس کار میکنه و مناسب سایت ها و بات های توی مسنجر هاست (از جهت بررسی فحش در مسیج ها/کامنت ها)
 
 
 
@@ -72,4 +73,5 @@ https://idpay.ir/thekawasaki
 
 * Finglish support
 * Adding more bad words
-* remove bad words
+* removing bad words function
+* CLI Support
