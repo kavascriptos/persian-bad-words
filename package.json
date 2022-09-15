@@ -1,0 +1,30 @@
+{
+  "name": "persian-bad-words",
+  "version": "1.0.0",
+  "description": "a npm package to detect persian bad words with a high detection rate. supports finglish",
+  "main": "src/index.js",
+  "typings": "typings/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "node ./Examples/console"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheKawasaki/persian-bad-words.git"
+  },
+  "keywords": [
+    "persian",
+    "iranian",
+    "bad words",
+    "persian bad words",
+    "persian swear",
+    "persian bad",
+    "anti bad word"
+  ],
+  "author": "Thekawasaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheKawasaki/persian-bad-words/issues"
+  },
+  "homepage": "https://github.com/TheKawasaki/persian-bad-words#readme"
+}
