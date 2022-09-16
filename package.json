@@ -1,7 +1,7 @@
 {
   "name": "persian-bad-words",
-  "version": "1.0.2",
-  "description": "a npm package to detect persian bad words with a high detection rate. supports finglish",
+  "version": "1.0.3",
+  "description": "a npm package to detect persian bad words with a high detection rate. partially supports finglish",
   "main": "src/index.js",
   "typings": "typings/index.d.ts",
   "scripts": {

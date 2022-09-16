@@ -47,7 +47,7 @@ function searchText(text, words) {
      ///////////////////
      .replace(/ض/gm, "ز")   
      ///////////////////
-     .replace(/ظ/g, "ز")   
+     .replace(/ظ/gm, "ز")   
      ///////////////////
      .replace(/آ/gm, "ا")
      .replace(/إ/gm, "ا")
@@ -68,7 +68,7 @@ function searchText(text, words) {
    
 
      if(searchText(textCleaner(text), dataset.farsiWords)) return true;
-     else if(searchText(text.toLowerCase(), dataset.finglishWords)) return true;
+     else if(searchText(textCleaner(text.toLowerCase()), dataset.finglishWords)) return true;
      else return false;
 
 }
