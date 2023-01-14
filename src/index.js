@@ -6,8 +6,7 @@ const dataset = require('./Data/farsi.json');
  * @param {String[]} words 
  */
 function searchText(text, words) {
-
-     return !!words.find(v => (text.includes(v)));
+     return words.find(v => (text.includes(v))) ?? false;
 }
 
 
@@ -65,12 +64,19 @@ function searchText(text, words) {
  */
  function detect(text) {
 
-   
-
      if(searchText(textCleaner(text), dataset.farsiWords)) return true;
      else if(searchText(textCleaner(text.toLowerCase()), dataset.finglishWords)) return true;
      else return false;
+}
 
+/**
+ * Get the first bad word in the sentence
+ * @param {String} text - your text.
+ */
+function get_bad_word(text) {
+
+    return searchText(textCleaner(text), dataset.farsiWords) ?? searchText(textCleaner(text.toLowerCase()), dataset.finglishWords);
 }
 
 module.exports.detect = detect;
+module.exports.get_bad_word = get_bad_word;
