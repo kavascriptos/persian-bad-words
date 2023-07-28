@@ -11,4 +11,4 @@
 - multiline regex
 
 **v1.0.0**
-- First upload!
+- First upload! 
