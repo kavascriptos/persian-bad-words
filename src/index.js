@@ -4,6 +4,7 @@ const dataset = require('./Data/farsi.json');
 /**
  * @param {String} text 
  * @param {String[]} words 
+ * Searching the text for swear words
  */
 function searchText(text, words) {
      return words.find(v => (text.includes(v))) ?? false;
